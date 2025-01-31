@@ -120,8 +120,7 @@ Observed here: http://ec2-3-143-113-170.us-east-2.compute.amazonaws.com:3090/
 
 Speed layer:
 I built the form in http://ec2-3-143-113-170.us-east-2.compute.amazonaws.com:3090/submitContribution.html to allow for
-individual to enter in contributions. This will not be integrated into the batch layer because they may not be completely correct
-however it will provide some insight as the FEC irregularly update their data sets.
+individual to enter in contributions. This will provide some insight as the FEC irregularly update their data sets.
 
 
 
