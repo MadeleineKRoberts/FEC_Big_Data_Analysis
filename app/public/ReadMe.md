@@ -1,10 +1,3 @@
-Please rerun my scala code. I was unable to revert it to the function version due to flight times 
-Current uberjar doesn't update the table as it should. Please reach out to me if there are any issues
-with new version and I can redeplow on my end. I didn't want to mess with the cluster after the deadline.
-
-STUDENT: Madeleine Roberts 
-
-
 RUN APPLICATION:
 Open terminal to run on 3090:
 SSH to EC2: ssh -i ~/Desktop/big_data/mkroberts.pem ec2-user@ec2-3-143-113-170.us-east-2.compute.amazonaws.com
