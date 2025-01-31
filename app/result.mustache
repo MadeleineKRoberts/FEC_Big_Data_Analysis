@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Assume your CSS file is named "styles.css" -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 100%; /* Adjust the maximum width as needed */
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            overflow-x: auto; /* Add horizontal scroll if needed */
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Individual Campaign Contributions</h1>
+    <table>
+        <tr>
+            <th>Year</th>
+            <th>Political Party</th>
+            <th>Total Contributions Raised</th>
+            <th>Number of Individual Contributions</th>
+            <th>Average Campaign Contribution</th>
+            <th>Percentage of In-State Donations</th>
+            <th>Average In-State Contribution</th>
+            <th>Average Out-of-State Contribution</th>
+        </tr>
+        {{#yearly_averages}}
+            <tr>
+                <td>{{yr}}</td>
+                <td>{{pp}}</td>
+                <td>${{total_money}}</td>
+                <td>{{total_donation_num}}</td>
+                <td>{{av_donation}}</td>
+                <td>{{in_state}}</td>
+                <td>${{av_in_state}}</td>
+                <td>${{av_out_state}}</td>
+            </tr>
+        {{/yearly_averages}}
+    </table>
+</div>
+</body>
+</html>
+

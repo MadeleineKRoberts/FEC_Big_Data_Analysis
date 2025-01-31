@@ -1,0 +1,99 @@
+.CSS_Table_Example {
+	margin: 20px auto;
+	padding: 20px;
+	width: 70%;
+	box-shadow: 10px 10px 5px #888888;
+	border: 1px solid #CCCCCC;
+	background-color: #E6F7FF; /* Light blue background */
+	border-radius: 9px;
+}
+
+.CSS_Table_Example table {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.CSS_Table_Example tr:last-child td:last-child {
+	border-bottom-right-radius: 9px;
+}
+
+.CSS_Table_Example table tr:first-child td:first-child {
+	border-top-left-radius: 9px;
+}
+
+.CSS_Table_Example table tr:first-child td:last-child {
+	border-top-right-radius: 9px;
+}
+
+.CSS_Table_Example tr:last-child td:first-child {
+	border-bottom-left-radius: 9px;
+}
+
+.CSS_Table_Example tr:hover td {
+	background-color: #B3D9FF; /* Lighter blue on hover */
+}
+
+.CSS_Table_Example tr:first-child td {
+	background: linear-gradient(bottom, #0066CC 5%, #3399FF 100%);
+	background: -o-linear-gradient(bottom, #0066CC 5%, #3399FF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0066CC), color-stop(1, #3399FF));
+	background: -moz-linear-gradient(center top, #0066CC 5%, #3399FF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0066CC", endColorstr="#3399FF");
+	background: -o-linear-gradient(top, #0066CC, 3399FF);
+	background-color: #0066CC;
+	border: 0px solid #000000;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	font-size: 18px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	color: #FFFFFF; /* White text */
+}
+
+.CSS_Table_Example tr:first-child:hover td {
+	background: linear-gradient(bottom, #0066CC 5%, #3399FF 100%);
+	background: -o-linear-gradient(bottom, #0066CC 5%, #3399FF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0066CC), color-stop(1, #3399FF));
+	background: -moz-linear-gradient(center top, #0066CC 5%, #3399FF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0066CC", endColorstr="#3399FF");
+	background: -o-linear-gradient(top, #0066CC, 3399FF);
+	background-color: #0066CC;
+}
+
+.CSS_Table_Example tr:first-child td:first-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.CSS_Table_Example tr:first-child td:last-child {
+	border-width: 0px 0px 1px 1px;
+}
+
+.CSS_Table_Example td {
+	background: linear-gradient(bottom, #3399FF 5%, #99B3FF 100%);
+	background: -o-linear-gradient(bottom, #3399FF 5%, #99B3FF 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3399FF), color-stop(1, #99B3FF));
+	background: -moz-linear-gradient(center top, #3399FF 5%, #99B3FF 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3399FF", endColorstr="#99B3FF");
+	background: -o-linear-gradient(top, #3399FF, 99B3FF);
+	background-color: #3399FF;
+	border: 1px solid #000000;
+	border-width: 0px 1px 1px 0px;
+	text-align: left;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+
+.CSS_Table_Example tr:last-child td {
+	border-width: 0px 1px 0px 0px;
+}
+
+.CSS_Table_Example tr td:last-child {
+	border-width: 0px 0px 1px 0px;
+}
+
+.CSS_Table_Example tr:last-child td:last-child {
+	border-width: 0px 0px 0px }
